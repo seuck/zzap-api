@@ -11,7 +11,22 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130106170903) do
+ActiveRecord::Schema.define(:version => 20130404163122) do
+
+  create_table "countries", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "developers", :force => true do |t|
+    t.string   "name"
+    t.integer  "country_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "developers", ["country_id"], :name => "index_developers_on_country_id"
 
   create_table "editors", :force => true do |t|
     t.string   "name",       :null => false
@@ -38,6 +53,22 @@ ActiveRecord::Schema.define(:version => 20130106170903) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "manufacturers", :force => true do |t|
+    t.string   "name"
+    t.integer  "country_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "manufacturers", ["country_id"], :name => "index_manufacturers_on_country_id"
+
+  create_table "media", :force => true do |t|
+    t.string   "name"
+    t.string   "path"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "pages", :force => true do |t|
     t.integer  "volume_id"
     t.string   "label"
@@ -48,6 +79,15 @@ ActiveRecord::Schema.define(:version => 20130106170903) do
   end
 
   add_index "pages", ["volume_id"], :name => "index_pages_on_volume_id"
+
+  create_table "publishers", :force => true do |t|
+    t.string   "name"
+    t.integer  "country_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "publishers", ["country_id"], :name => "index_publishers_on_country_id"
 
   create_table "scan_authors", :force => true do |t|
     t.string   "name"

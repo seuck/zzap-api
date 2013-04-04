@@ -1,0 +1,256 @@
+"id","name","country_id"
+1, 'Activision', 1
+2, 'Rino Marketing'
+3, 'Bug Byte', 2
+4, 'Ocean', 2
+5, 'Martech'
+6, 'US Gold', 1
+7, 'Firebird', 2
+8, 'Micropower'
+9, 'Melbourne House', 3
+10, 'Hewson Consultant', 2
+11, 'Tynesoft', 2
+12, 'Mastertronic', 2
+13, 'Digital Integration'
+14, 'Capcom', 4
+15, 'Konami', 4
+16, 'Data East Corporation', 4
+17, 'Gremlin Graphics', 2
+18, 'Lucasfilm Games', 1
+19, 'Adventure International', 2
+20, 'Games Workshop', 2
+21, 'Palace Software', 2
+22, 'Imagine', 2
+23, 'English Software', 2
+24, 'Ultimate', 2
+25, 'System 3', 2
+26, 'M.A.D. Games', 2
+27, 'Domark', 2
+242, 'Atarisoft', 1
+29, 'Gargoyle Games', 2
+30, 'Elite Systems', 2
+31, 'Monolith', 2
+32, 'Beyond', 2
+33, 'Nexus', 1
+34, 'Mirrorsoft', 2
+35, 'Electric Dreams', 2
+36, 'First Star', 2
+37, 'Americana', 1
+38, 'Entertainment USA', 1
+39, 'Alpha Omega', 2
+40, 'Sega', 4
+41, 'Tehkan', 4
+42, 'CRL Computer Rentals Ltd.', 2
+43, 'Infocom', 1
+44, 'Nu Wave', 2
+45, 'Durell', 2
+46, 'Argus Press Software', 2
+47, 'Infogrames', 2
+48, 'Colleen', 2
+49, 'Software Projects', 2
+50, 'Micropool', 2
+51, 'Incentive', 2
+52, 'Anco', 2
+53, 'Players', 2
+54, 'Thalamus', 2
+55, 'Mind Games', 2
+56, 'Quicksilva', 2
+57, 'Ariolasoft', 2
+58, 'Lothlorien', 2
+59, 'Rainbird', 2
+221, 'Tradewest', 1
+61, 'A&F', 2
+62, 'Edizioni Hobby', 5
+63, 'Midas', 2
+64, 'Electronic Arts', 1
+65, 'American Action', 1
+66, 'Alligata', 2
+67, 'Microprose', 1
+68, 'Mindscape', 2
+69, 'Accolade', 1
+70, 'Doctorsoft', 2
+241, 'Sterling Software', 2
+72, 'Midas Marketing', 2
+73, 'Starlight Software', 2
+74, 'Microdeal', 2
+75, 'Microids', 7
+76, 'Cinemaware', 1
+77, 'Go!', 2
+78, 'PSS', 1
+79, 'Code Masters', 2
+80, 'Grandslam Entertainment', 2
+81, 'Epyx', 1
+82, 'Ere Informatique', 2
+83, 'Zeppelin Games', 2
+84, 'Virgin Games', 1
+85, 'Cascade Games', 1
+86, 'Databyte', 2
+87, 'Spectrum Holobyte', 1
+88, 'King Size', 2
+89, 'Alternative', 2
+90, 'Sublogic', 2
+91, 'Rack-It', 2
+220, 'Midway', 1
+93, 'Magic Bytes', 2
+94, 'Level 9', 2
+95, 'Psygnosis', 2
+96, 'Pizza Software', 5
+97, 'Ricochet', 2
+98, 'Origin Systems', 1
+99, 'SSI', 1
+100, 'Faster than Light', 2
+101, 'Micro Design', 2
+102, 'Pandora', 2
+103, 'Bubble Bus', 2
+104, 'Datasoft', 2
+105, 'Firebird Silver', 2
+106, 'Sensible Software', 2
+107, 'Novagen', 2
+108, 'Abstract Concepts', 2
+109, 'Silverbird', 2
+110, 'Addictive Games', 2
+111, 'Taito', 4
+112, 'Hutchinson Computer Publishing', 2
+113, 'Audiogenic', 2
+114, 'Image Works', 2
+115, 'Systems Editoriale', 2
+116, 'Red Rat Software', 2
+117, 'Electric Software', 2
+118, 'Dinamic', 6
+119, 'Titus', 2
+120, 'Blue Ribbon', 2
+121, 'Rainbow Arts', 8
+122, 'Loriciel', 7
+123, 'Logotron', 2
+124, 'Again Again', 2
+125, 'Electra Software', 2
+126, 'Softek', 2
+127, 'Westwood Associates', 2
+128, 'Encore', 2
+129, 'Kixx', 2
+130, 'Imperial Software Design', 2
+131, 'Artronic Productions', 3
+132, 'The Sales Curve', 2
+133, 'Italvideo', 5
+134, 'Microvalue', 2
+135, 'Microillusions', 2
+136, 'Simulmondo', 2
+137, 'SSG', 1
+138, 'Box Office', 2
+139, 'CDS', 2
+140, 'Ubi Soft', 7
+141, 'Hit Squad', 2
+222, 'Odin', 2
+143, 'Reline Software', 3
+144, 'Microstyle', 2
+145, 'Byte Back', 2
+146, 'Rad', 2
+147, 'UNPUBLISHED', 5
+148, 'Beau Jolly', 2
+149, 'UNKNOWN', 2
+150, 'Nintendo', 4
+151, 'Empire', 1
+152, 'Winner', 2
+153, 'Cosmi', 1
+154, 'Linel', 2
+155, 'Genias', 5
+156, 'Idea', 5
+157, 'Hi-Tec Software', 2
+158, 'Access', 1
+159, 'Hudson Soft', 2
+160, 'New World Computing', 1
+161, 'Electrcoin', 2
+162, 'Namcot', 4
+163, 'Softgold', 2
+164, 'Blade Software', 2
+165, 'Goliath Games', 2
+166, 'Human', 4
+167, 'Okama', 4
+168, 'Irem', 4
+169, 'Asmik', 4
+170, 'Natax Soft', 4
+171, 'Jaleco', 4
+172, 'Atari', 1
+173, 'Nichibutsu', 4
+174, 'Hal Laboratory', 4
+175, 'Tomahawk', 2
+176, 'Impulze', 2
+177, 'Flair', 2
+178, 'Millennium', 2
+179, 'Mastertronic Plus', 2
+180, 'Disney Software', 1
+181, 'Starbyte Software', 2
+182, 'Tecmagik', 1
+183, 'Demonware', 2
+184, 'Readysoft', 2
+185, 'NCS', 4
+186, 'Krisalis', 2
+187, '21th Century Entertainment', 2
+188, 'Electronic Zoo', 2
+189, 'Mindcraft', 1
+190, 'Tronix', 2
+191, 'Wiked Soft', 2
+192, 'Unique', 2
+193, 'Tecmo', 4
+194, 'Palcom', 4
+195, 'GBH', 2
+196, 'LJN', 4
+197, 'DMG', 4
+198, 'Meldac', 4
+199, 'Banzai Programming', 2
+200, 'Your Sinclair', 2
+201, 'Acclaim', 1
+202, 'Imagineer', 4
+203, 'Namco', 4
+204, 'Kingsoft', 4
+205, 'Atlantis', 2
+206, 'Touchdown', 2
+207, 'Soundware', 2
+208, 'Wolfteam', 4
+209, 'SNK', 4
+210, 'Advance', 2
+211, 'Computer Novels', 2
+212, 'Piranha', 2
+213, 'Endurance Games', 1
+214, 'The Attic', 2
+215, 'Omnitrend Software', 1
+216, 'Impressions', 2
+217, 'Screen 7', 2
+218, 'Innerprise Software', 1
+219, 'Digital Magic Software', 2
+223, 'Mikro-Gen', 2
+224, 'Mosaic Publishing', 2
+225, 'Channel 8 Software'
+226, 'New Generation Software', 2
+227, 'Microsphere', 2
+229, 'Screenplay', 2
+230, 'American Eagle Software', 1
+231, 'Llamasoft', 2
+232, 'Creative Sparks'
+234, 'The Edge', 2
+235, 'Interceptor Software'
+236, 'Anirog', 2
+237, 'Software Factory'
+238, 'The Power House', 2
+239, 'Orpheus'
+240, 'Funsoft'
+243, 'Taskset', 2
+244, 'Superior Software'
+245, 'Broderbund', 1
+246, 'Handic Software'
+247, 'Kele Line'
+248, 'Terminal Software', 2
+249, 'United Microware Industries'
+250, 'Artic Computing', 2
+251, 'Artworx Software Company', 0
+252, 'Starvision'
+253, 'Streetwise', 2
+254, 'Ace Software', 2
+255, 'Commodore', 1
+256, 'Hit-Pak', 2
+257, 'Renovation'
+258, 'California Dreams'
+259, 'Bytemike Software', 5
+260, 'Parker Brothers', 1
+261, 'Thorn Emi Video', 2
+262, 'CP Verlag'

@@ -5,7 +5,7 @@ Zzap::Application.routes.draw do
   root :to => redirect('http://www.zzap.it')
   
   namespace :api do
-    resources :magazines, :issues, :editors
+    resources :magazines, :issues, :editors, :developers, :publishers, :manufacturers
   end
   
   # Sample of regular route:
