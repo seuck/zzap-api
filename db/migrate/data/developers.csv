@@ -1,275 +1,275 @@
 "id","name","country_id"
-1, 'Accolade', 1
-2, 'Lucasfilm Games', 1
-3, 'Sierra Online', 1
-4, 'Interplay', 1
-5, 'Scott Adams', 1
-6, 'Microprose', 1
-7, 'Konami', 4
-8, 'Access', 1
-9, 'St Brides', 2
-10, 'Silhouette Software', 2
-11, 'Mindscape', 1
-12, 'Odin', 2
-13, 'Durell', 2
-14, 'Mind Games', 2
-15, 'Llamasoft', 2
-16, 'Epyx', 1
-17, 'Kingsoft', 2
-18, 'Beam Software', 3
-19, 'SSI', 1
-20, 'Vortex', 2
-21, 'Databyte', 1
-22, 'Magnetic Scrolls', 2
-23, 'Infocom', 1
-24, 'Cosmi', 3
-25, 'Eurogold', 2
-26, 'Thundervision', 2
-27, 'Arcana Software Design', 2
-28, '39 Steps', 2
-29, 'Operasoft', 2
-30, 'Adventuresoft', 2
-31, 'Ozark Softscape', 1
-32, 'Denton Designs', 2
-33, 'Grandslam Entertainment', 2
-34, 'Andromeda Software', 2
-35, 'Intelligent Software', 2
-36, 'Data East', 1
-37, 'Advance', 2
-38, 'Probe', 2
-39, 'Gamestar', 1
-40, 'Bulldog Software', 2
-41, 'HAL Unlimited', 2
-42, 'Dinamic', 6
-43, 'System 3', 2
-44, 'Cinemaware', 1
-45, 'Tengen', 2
-46, 'Dalali Software', 2
-47, 'Rainbow Arts', 2
-48, 'Digital Persuasion', 2
-49, 'Intergalactic Development', 2
-50, 'Spectrum Holobyte', 1
-51, 'Cascade Games', 1
-52, 'Special FX', 2
-53, 'The Bitmap Brothers', 2
-54, 'Diamond Software', 2
-55, 'Magic Logic', 2
-56, 'Graftgold', 2
-57, 'Mr. Chip Software', 2
-58, 'Hill MacGibbon', 2
-59, 'Outlaw Productions', 2
-60, 'Hewson Consultants', 2
-61, 'Tiertex', 2
-62, 'Code Masters', 2
-63, 'Novatrade', 1
-64, 'Sentient Software', 2
-65, 'Level 9', 2
-66, 'Ace', 2
-67, 'Electric Dreams', 2
-68, 'DW Software', 2
-69, 'Pizza Software', 5
-70, 'Andrea Pecorari', 2
-71, 'Magic Bytes', 2
-72, 'Commodore', 1
-73, 'Transatlantic Simulations', 1
-74, 'Vektor Grafix', 2
-75, 'Distinctive Software', 1
-76, 'MD Software', 2
-77, 'Alpha-Omega Software', 2
-78, 'Origin', 1
-261, 'Discovery Software'
-80, 'Novagen', 2
-81, 'The Software Toolworks', 2
-82, 'ImageWorks', 2
-83, 'Melbourne House', 3
-84, 'Datasoft', 2
-85, 'Sculptured Software', 2
-86, 'Cyberdine Systems', 2
-87, 'Topo Soft', 2
-88, 'Domark', 2
-89, 'Psygnosis', 2
-90, 'Software Studios', 2
-91, 'Sensible Software', 2
-92, 'Dynamix', 1
-93, 'Major Developments', 2
-94, 'Blitter Animations', 2
-95, 'Micro Projects', 2
-96, 'Colorsoftware', 2
-97, 'Icon Design', 2
-98, 'British Software', 2
-99, 'Wise Owl Software', 2
-100, 'Lynsoft', 2
-101, 'Mr. Micro', 2
-102, 'System Applied Technology', 2
-103, 'Software Creations', 2
-104, 'Tiger Developments', 2
-105, 'Psyclapse', 2
-106, 'Westwood Associates', 2
-107, 'Five Ways Software', 2
-108, 'Micro Media', 2
-109, 'Action Graphics', 2
-110, 'Imperial Software Design', 2
-111, 'Smart Egg Software', 2
-112, 'Emerald Software', 2
-113, 'Softgold', 2
-114, 'Maelstrom Games', 2
-115, 'Random Access', 2
-116, 'Cobra Soft', 2
-117, 'Silicon Design', 2
-118, 'Pal Developments', 2
-119, 'Pantheon Software', 2
-120, 'Lothlorien', 2
-121, 'Software Projects', 2
-122, 'Softstorm Developments', 2
-123, 'Golden Goblins', 2
-124, 'Core Design', 2
-125, 'StarSoft', 2
-126, 'Spidersoft', 2
-127, 'Arc Developments', 2
-128, 'SportTime', 2
-129, 'Teque Software', 2
-130, 'Shades', 2
-131, 'DesignStar Consultants', 2
-132, 'Concept Animations', 2
-133, 'Time Warp Productions', 2
-134, 'Sprytes', 2
-135, 'Pacific Dataworks International', 1
-136, 'Transmission Software', 2
-137, 'Nintendo', 4
-138, 'Images Design', 1
-139, 'Maxis Software', 1
-140, 'Micro Partner', 2
-141, 'Softworks', 2
-142, 'The Assembly Line', 2
-143, 'Walking Circles', 2
-144, 'Bluebyte', 2
-145, 'Millennium', 2
-146, 'Incentive', 2
-147, 'Vivid Image', 2
-148, 'Capstone', 2
-149, 'Enigma Variations', 2
-150, 'Surprise Team', 5
-151, 'Bedrock Software', 2
-152, 'Mythos', 2
-153, 'Broderbund', 1
-154, 'Twilight', 2
-155, 'Paragon Software', 2
-156, 'Cyberstyle', 2
-157, 'Creative Materials', 1
-158, 'Storm', 2
-159, 'Reflective Designs', 2
-160, 'Magnetica', 5
-161, 'Play Byte', 2
-162, 'Genesis Software', 2
-163, 'Knight Technologies', 1
-164, 'Active Minds', 2
-165, '221b Software Developments', 2
-166, 'DMA Design', 2
-167, 'The Kremlin', 2
-168, 'Wiked Soft', 2
-169, 'Digital Minds', 5
-170, 'Imagitec Design', 2
-171, 'Imagineer', 2
-172, 'Banzai Programming', 2
-173, 'Atlantis', 2
-174, 'First Class', 2
-175, 'Gannon Designs', 2
-176, 'Artech Digital Productions', 2
-177, 'Contec', 2
-179, 'Sport Billy Productions', 1
-180, 'HAL Laboratory', 2
-181, 'Mastertronic', 2
-182, 'Gremlin Graphics', 2
-183, 'Creative Sparks', 2
-184, 'Ocean', 2
-185, 'Binary Designs', 2
-186, 'Microillusions', 2
-187, 'Chip', 2
-188, 'Simulmondo', 5
-189, 'PSS', 1
-190, 'Elite', 2
-191, 'Psion', 2
-192, 'Choice Software', 1
-193, 'The Attic', 3
-194, 'Free Fall Associates', 1
-196, 'Thalion', 2
-197, 'Magnetic Images', 1
-198, 'Parsec Software', 1
-199, 'Digital Image Design', 2
-200, 'Delphine', 7
-201, 'Kinetica Software', 1
-202, 'Thalamus', 2
-203, 'Softeyes Design', 2
-204, 'New World Computing', 1
-205, 'Palace Software', 2
-206, 'Amazing Products', 2
-207, 'Lunatic Software', 2
-208, 'Video Vulture', 2
-209, 'Starbyte Software', 8
-210, 'Goliath Games', 2
-211, 'Ice Software', 2
-212, 'Bullfrog', 2
-213, 'TBS Productions', 1
-214, 'Idea', 5
-215, 'LucasArts', 1
-216, 'Bally Sente', 1
-217, 'Atari Games', 1
-218, 'Rare', 2
-219, 'Platinum Productions', 2
-220, 'Atarisoft', 1
-221, 'Berkeley Softworks', 1
-222, 'Big Five Software', 1
-223, 'Ultimate', 2
-224, 'Tecmo', 4
-225, 'Taito', 4
-226, 'Torno Soft'
-228, 'Imagine', 2
-230, 'Thor Computer Software', 2
-231, 'Synapse Software', 2
-232, 'The Edge', 2
-233, 'Firebird', 2
-234, 'Interceptor Software', 2
-235, 'A&F', 2
-236, 'Martech', 2
-237, 'Anirog', 2
-238, 'Visions Software Factory', 2
-239, 'Orpheus', 2
-240, 'Virgin Games', 1
-241, 'Funsoft'
-242, 'Mikro-Gen', 2
-243, 'Activision', 1
-244, 'Alligata', 2
-245, 'English Software', 2
-246, 'Interdisc', 2
-247, 'Bubble Bus', 2
-248, 'Thorn EMI Computer Software'
-249, 'Terminal Software', 2
-250, 'United Microware Industries'
-251, 'Artic Computing', 2
-252, 'Icom Simulations'
-253, 'Reflexoft'
-254, 'Gargoyle'
-255, 'Source Software'
-256, 'Namco', 4
-257, 'Starvision'
-258, 'Rubberchip'
-259, 'Design Design Software', 2
-260, 'Cybadyne'
-262, 'Titus', 2
-263, 'Arcanum Software Developments', 2
-264, 'Zeppelin', 2
-265, 'Software Communications', 2
-266, 'Ram Jam Corporation'
-267, 'Syrox', 2
-268, 'Mirrorsoft', 2
-269, 'Akaido Arcade Systems', 2
-270, 'Sega', 4
-271, 'Electronic Arts', 2
-272, 'Telenet Japan', 4
-273, 'Hi-Tec Software', 2
-274, 'Logical Design Works'
-275, 'Superior Software', 2
-276, 'Images', 2
-277, 'Gang of Five'
-278, 'Softstone', 2
-279, 'Game On'
+1,Accolade, 1
+2,Lucasfilm Games, 1
+3,Sierra Online, 1
+4,Interplay, 1
+5,Scott Adams, 1
+6,Microprose, 1
+7,Konami, 4
+8,Access, 1
+9,St Brides, 2
+10,Silhouette Software, 2
+11,Mindscape, 1
+12,Odin, 2
+13,Durell, 2
+14,Mind Games, 2
+15,Llamasoft, 2
+16,Epyx, 1
+17,Kingsoft, 2
+18,Beam Software, 3
+19,SSI, 1
+20,Vortex, 2
+21,Databyte, 1
+22,Magnetic Scrolls, 2
+23,Infocom, 1
+24,Cosmi, 3
+25,Eurogold, 2
+26,Thundervision, 2
+27,Arcana Software Design, 2
+28,39 Steps, 2
+29,Operasoft, 2
+30,Adventuresoft, 2
+31,Ozark Softscape, 1
+32,Denton Designs, 2
+33,Grandslam Entertainment, 2
+34,Andromeda Software, 2
+35,Intelligent Software, 2
+36,Data East, 1
+37,Advance, 2
+38,Probe, 2
+39,Gamestar, 1
+40,Bulldog Software, 2
+41,HAL Unlimited, 2
+42,Dinamic, 6
+43,System 3, 2
+44,Cinemaware, 1
+45,Tengen, 2
+46,Dalali Software, 2
+47,Rainbow Arts, 2
+48,Digital Persuasion, 2
+49,Intergalactic Development, 2
+50,Spectrum Holobyte, 1
+51,Cascade Games, 1
+52,Special FX, 2
+53,The Bitmap Brothers, 2
+54,Diamond Software, 2
+55,Magic Logic, 2
+56,Graftgold, 2
+57,Mr. Chip Software, 2
+58,Hill MacGibbon, 2
+59,Outlaw Productions, 2
+60,Hewson Consultants, 2
+61,Tiertex, 2
+62,Code Masters, 2
+63,Novatrade, 1
+64,Sentient Software, 2
+65,Level 9, 2
+66,Ace, 2
+67,Electric Dreams, 2
+68,DW Software, 2
+69,Pizza Software, 5
+70,Andrea Pecorari, 2
+71,Magic Bytes, 2
+72,Commodore, 1
+73,Transatlantic Simulations, 1
+74,Vektor Grafix, 2
+75,Distinctive Software, 1
+76,MD Software, 2
+77,Alpha-Omega Software, 2
+78,Origin, 1
+261,Discovery Software
+80,Novagen, 2
+81,The Software Toolworks, 2
+82,ImageWorks, 2
+83,Melbourne House, 3
+84,Datasoft, 2
+85,Sculptured Software, 2
+86,Cyberdine Systems, 2
+87,Topo Soft, 2
+88,Domark, 2
+89,Psygnosis, 2
+90,Software Studios, 2
+91,Sensible Software, 2
+92,Dynamix, 1
+93,Major Developments, 2
+94,Blitter Animations, 2
+95,Micro Projects, 2
+96,Colorsoftware, 2
+97,Icon Design, 2
+98,British Software, 2
+99,Wise Owl Software, 2
+100,Lynsoft, 2
+101,Mr. Micro, 2
+102,System Applied Technology, 2
+103,Software Creations, 2
+104,Tiger Developments, 2
+105,Psyclapse, 2
+106,Westwood Associates, 2
+107,Five Ways Software, 2
+108,Micro Media, 2
+109,Action Graphics, 2
+110,Imperial Software Design, 2
+111,Smart Egg Software, 2
+112,Emerald Software, 2
+113,Softgold, 2
+114,Maelstrom Games, 2
+115,Random Access, 2
+116,Cobra Soft, 2
+117,Silicon Design, 2
+118,Pal Developments, 2
+119,Pantheon Software, 2
+120,Lothlorien, 2
+121,Software Projects, 2
+122,Softstorm Developments, 2
+123,Golden Goblins, 2
+124,Core Design, 2
+125,StarSoft, 2
+126,Spidersoft, 2
+127,Arc Developments, 2
+128,SportTime, 2
+129,Teque Software, 2
+130,Shades, 2
+131,DesignStar Consultants, 2
+132,Concept Animations, 2
+133,Time Warp Productions, 2
+134,Sprytes, 2
+135,Pacific Dataworks International, 1
+136,Transmission Software, 2
+137,Nintendo, 4
+138,Images Design, 1
+139,Maxis Software, 1
+140,Micro Partner, 2
+141,Softworks, 2
+142,The Assembly Line, 2
+143,Walking Circles, 2
+144,Bluebyte, 2
+145,Millennium, 2
+146,Incentive, 2
+147,Vivid Image, 2
+148,Capstone, 2
+149,Enigma Variations, 2
+150,Surprise Team, 5
+151,Bedrock Software, 2
+152,Mythos, 2
+153,Broderbund, 1
+154,Twilight, 2
+155,Paragon Software, 2
+156,Cyberstyle, 2
+157,Creative Materials, 1
+158,Storm, 2
+159,Reflective Designs, 2
+160,Magnetica, 5
+161,Play Byte, 2
+162,Genesis Software, 2
+163,Knight Technologies, 1
+164,Active Minds, 2
+165,221b Software Developments, 2
+166,DMA Design, 2
+167,The Kremlin, 2
+168,Wiked Soft, 2
+169,Digital Minds, 5
+170,Imagitec Design, 2
+171,Imagineer, 2
+172,Banzai Programming, 2
+173,Atlantis, 2
+174,First Class, 2
+175,Gannon Designs, 2
+176,Artech Digital Productions, 2
+177,Contec, 2
+179,Sport Billy Productions, 1
+180,HAL Laboratory, 2
+181,Mastertronic, 2
+182,Gremlin Graphics, 2
+183,Creative Sparks, 2
+184,Ocean, 2
+185,Binary Designs, 2
+186,Microillusions, 2
+187,Chip, 2
+188,Simulmondo, 5
+189,PSS, 1
+190,Elite, 2
+191,Psion, 2
+192,Choice Software, 1
+193,The Attic, 3
+194,Free Fall Associates, 1
+196,Thalion, 2
+197,Magnetic Images, 1
+198,Parsec Software, 1
+199,Digital Image Design, 2
+200,Delphine, 7
+201,Kinetica Software, 1
+202,Thalamus, 2
+203,Softeyes Design, 2
+204,New World Computing, 1
+205,Palace Software, 2
+206,Amazing Products, 2
+207,Lunatic Software, 2
+208,Video Vulture, 2
+209,Starbyte Software, 8
+210,Goliath Games, 2
+211,Ice Software, 2
+212,Bullfrog, 2
+213,TBS Productions, 1
+214,Idea, 5
+215,LucasArts, 1
+216,Bally Sente, 1
+217,Atari Games, 1
+218,Rare, 2
+219,Platinum Productions, 2
+220,Atarisoft, 1
+221,Berkeley Softworks, 1
+222,Big Five Software, 1
+223,Ultimate, 2
+224,Tecmo, 4
+225,Taito, 4
+226,Torno Soft
+228,Imagine, 2
+230,Thor Computer Software, 2
+231,Synapse Software, 2
+232,The Edge, 2
+233,Firebird, 2
+234,Interceptor Software, 2
+235,A&F, 2
+236,Martech, 2
+237,Anirog, 2
+238,Visions Software Factory, 2
+239,Orpheus, 2
+240,Virgin Games, 1
+241,Funsoft
+242,Mikro-Gen, 2
+243,Activision, 1
+244,Alligata, 2
+245,English Software, 2
+246,Interdisc, 2
+247,Bubble Bus, 2
+248,Thorn EMI Computer Software
+249,Terminal Software, 2
+250,United Microware Industries
+251,Artic Computing, 2
+252,Icom Simulations
+253,Reflexoft
+254,Gargoyle
+255,Source Software
+256,Namco, 4
+257,Starvision
+258,Rubberchip
+259,Design Design Software, 2
+260,Cybadyne
+262,Titus, 2
+263,Arcanum Software Developments, 2
+264,Zeppelin, 2
+265,Software Communications, 2
+266,Ram Jam Corporation
+267,Syrox, 2
+268,Mirrorsoft, 2
+269,Akaido Arcade Systems, 2
+270,Sega, 4
+271,Electronic Arts, 2
+272,Telenet Japan, 4
+273,Hi-Tec Software, 2
+274,Logical Design Works
+275,Superior Software, 2
+276,Images, 2
+277,Gang of Five
+278,Softstone, 2
+279,Game On

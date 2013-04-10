@@ -1,20 +1,20 @@
 "id","name","country_id"
-1, 'Commodore', 1
-2, 'Sinclair', 2
-3, 'Various'
-4, 'Capcom', 4
-5, 'Konami', 4
-6, 'Data East Corporation', 4
-7, 'Amstrad', 2
-8, 'Acorn', 2
-9, 'Atari', 1
-10, 'Sega', 4
-11, 'Tehkan', 4
-12, 'Taito', 4
-13, 'Olivetti', 5
-14, 'Nintendo', 4
-15, 'NEC', 4
-16, 'Apple', 1
-17, 'SNK', 4
-19, 'Midway', 1
-20, 'Tecmo', 4
+1,Commodore, 1
+2,Sinclair, 2
+3,Various
+4,Capcom, 4
+5,Konami, 4
+6,Data East Corporation, 4
+7,Amstrad, 2
+8,Acorn, 2
+9,Atari, 1
+10,Sega, 4
+11,Tehkan, 4
+12,Taito, 4
+13,Olivetti, 5
+14,Nintendo, 4
+15,NEC, 4
+16,Apple, 1
+17,SNK, 4
+19,Midway, 1
+20,Tecmo, 4

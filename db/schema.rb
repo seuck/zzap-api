@@ -11,16 +11,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130405154912) do
+ActiveRecord::Schema.define(:version => 20130409160911) do
 
   create_table "countries", :force => true do |t|
-    t.string   "name"
+    t.string   "name",       :null => false
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
 
   create_table "developers", :force => true do |t|
-    t.string   "name"
+    t.string   "name",       :null => false
     t.integer  "country_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
@@ -34,8 +34,21 @@ ActiveRecord::Schema.define(:version => 20130405154912) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "games", :force => true do |t|
+    t.string   "name",           :null => false
+    t.integer  "publisher_id"
+    t.integer  "setting_id"
+    t.integer  "perspective_id"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
+  end
+
+  add_index "games", ["perspective_id"], :name => "index_games_on_perspective_id"
+  add_index "games", ["publisher_id"], :name => "index_games_on_publisher_id"
+  add_index "games", ["setting_id"], :name => "index_games_on_setting_id"
+
   create_table "genres", :force => true do |t|
-    t.string   "name"
+    t.string   "name",       :null => false
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -60,7 +73,7 @@ ActiveRecord::Schema.define(:version => 20130405154912) do
   end
 
   create_table "manufacturers", :force => true do |t|
-    t.string   "name"
+    t.string   "name",       :null => false
     t.integer  "country_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
@@ -69,7 +82,7 @@ ActiveRecord::Schema.define(:version => 20130405154912) do
   add_index "manufacturers", ["country_id"], :name => "index_manufacturers_on_country_id"
 
   create_table "media", :force => true do |t|
-    t.string   "name"
+    t.string   "name",       :null => false
     t.string   "path"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
@@ -86,8 +99,14 @@ ActiveRecord::Schema.define(:version => 20130405154912) do
 
   add_index "pages", ["volume_id"], :name => "index_pages_on_volume_id"
 
+  create_table "perspectives", :force => true do |t|
+    t.string   "name",       :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "publishers", :force => true do |t|
-    t.string   "name"
+    t.string   "name",       :null => false
     t.integer  "country_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
@@ -113,6 +132,21 @@ ActiveRecord::Schema.define(:version => 20130405154912) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
+
+  create_table "settings", :force => true do |t|
+    t.string   "name",       :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "systems", :force => true do |t|
+    t.string   "name",            :null => false
+    t.integer  "manufacturer_id"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+  end
+
+  add_index "systems", ["manufacturer_id"], :name => "index_systems_on_manufacturer_id"
 
   create_table "volume_types", :force => true do |t|
     t.string   "name",       :null => false

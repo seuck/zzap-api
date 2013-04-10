@@ -1,8 +1,8 @@
 class CreatePublishers < ActiveRecord::Migration
   def self.up
     create_table :publishers do |t|
-      t.string :name
-      t.references :country, :null => true
+      t.string :name, :null => false
+      t.references :country
 
       t.timestamps
     end

@@ -1,7 +1,8 @@
 class Publisher < ActiveRecord::Base
   belongs_to :country
+  has_many :games
   
-  attr_accessible :name, :country_id
+  attr_accessible :id, :name, :country_id
 
   def self.find_all_with_countries
     timestamp = maximum(:updated_at)

@@ -1,8 +1,8 @@
 class CreateManufacturers < ActiveRecord::Migration
   def self.up
     create_table :manufacturers do |t|
-      t.string :name
-      t.references :country, :null => true
+      t.string :name, :null => false
+      t.references :country
 
       t.timestamps
     end

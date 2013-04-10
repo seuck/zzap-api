@@ -1,0 +1,40 @@
+"id","manufacturer_id","name"
+1, 1,64
+2, 2,Spectrum 48
+3, 1,16
+15, 1,Amiga 500
+5, 3,MSX
+6, 4,Commando Hardware
+7, 5,Green Beret Hardware
+8, 6,Express Raider Hardware
+9, 7,CPC
+10, 8,BBC Model B
+11, 9,400/800
+12, 10,Space Harrier Hardware
+13, 11,World Cup Hardware
+14, 1,128
+16, 9,ST
+17, 3,PC IBM Compatible
+18, 12,N.Y. Captor Hardware
+19, 12,Tiger Heli Hardware
+20, 4,Section Z Hardware
+21, 13,PC1
+22, 3,MSX 2
+23, 14,NES
+24, 10,Master System
+25, 15,PC Engine
+26, 14,Gameboy
+27, 9,130XE
+28, 9,Lynx
+29, 16,II
+30, 16,Macintosh
+33, 7,GX4000
+32, 2,Spectrum 128
+34, 17,Neo Geo
+35, 10,Megadrive
+36, 11,Gridiron Fight Hardware
+37, 17,HAL 21 Based Hardware
+38, 19,Bally Sente SAC 1
+39, 9,System 1
+40, 20,Solomon's Key Hardware
+41, 12,Slap Fight Hardware

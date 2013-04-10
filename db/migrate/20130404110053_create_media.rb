@@ -1,8 +1,8 @@
 class CreateMedia < ActiveRecord::Migration
   def self.up
     create_table :media do |t|
-      t.string :name
-      t.string :path, :null => true
+      t.string :name, :null => false
+      t.string :path
 
       t.timestamps
     end

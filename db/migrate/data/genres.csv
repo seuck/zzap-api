@@ -1,33 +1,33 @@
 "id","name"
-1, 'Simulation'
-2, 'Action'
-3, 'Adventure'
-4, 'Sports'
-5, 'Strategy'
-6, 'Turn based'
-7, 'Shoot'em up'
-8, 'Platform'
-11, 'Puzzle'
-12, 'Beat''em up'
-15, 'Ping Pong'
-16, 'Wrestling'
-17, 'Real time'
-18, 'Boxing'
-19, 'Multievent'
-20, 'Text'
-21, 'Graphic'
-23, 'Racing'
-24, 'American Football'
-26, 'Martial Arts'
-27, 'Football'
-28, 'Motorcycles'
-29, 'Life'
-30, 'Pinball'
-31, 'Cards'
-32, 'Poker'
-33, 'Role Playing Game'
-34, 'Board'
-35, 'Gambling'
-36, 'Compilation'
-37, 'Point and Click'
-38, 'Golf'
+1,Simulation
+2,Action
+3,Adventure
+4,Sports
+5,Strategy
+6,Turn based
+7,Shoot'em up
+8,Platform
+11,Puzzle
+12,Beat'em up
+15,Ping Pong
+16,Wrestling
+17,Real time
+18,Boxing
+19,Multievent
+20,Text
+21,Graphic
+23,Racing
+24,American Football
+26,Martial Arts
+27,Football
+28,Motorcycles
+29,Life
+30,Pinball
+31,Cards
+32,Poker
+33,Role Playing Game
+34,Board
+35,Gambling
+36,Compilation
+37,Point and Click
+38,Golf
