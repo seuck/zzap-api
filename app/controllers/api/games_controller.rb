@@ -1,5 +1,4 @@
 class Api::GamesController < ApplicationController
-  
   respond_to :json
 
   def index
@@ -8,7 +7,7 @@ class Api::GamesController < ApplicationController
   end
   
   def show
-    @game = Game.find(params[:id])
+    @game = Game.find_complete(params[:id])
     respond_with_json @game
   end
   

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130409160911) do
+ActiveRecord::Schema.define(:version => 20130411151632) do
 
   create_table "countries", :force => true do |t|
     t.string   "name",       :null => false
@@ -46,6 +46,16 @@ ActiveRecord::Schema.define(:version => 20130409160911) do
   add_index "games", ["perspective_id"], :name => "index_games_on_perspective_id"
   add_index "games", ["publisher_id"], :name => "index_games_on_publisher_id"
   add_index "games", ["setting_id"], :name => "index_games_on_setting_id"
+
+  create_table "games_genres", :id => false, :force => true do |t|
+    t.integer  "game_id"
+    t.integer  "genre_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "games_genres", ["game_id"], :name => "index_games_genres_on_game_id"
+  add_index "games_genres", ["genre_id"], :name => "index_games_genres_on_genre_id"
 
   create_table "genres", :force => true do |t|
     t.string   "name",       :null => false
