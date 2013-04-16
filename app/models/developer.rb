@@ -1,5 +1,6 @@
 class Developer < ActiveRecord::Base
   belongs_to :country
+  has_many :versions
   
   attr_accessible :id, :name, :country_id
   
