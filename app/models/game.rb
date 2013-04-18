@@ -9,7 +9,7 @@ class Game < ActiveRecord::Base
   
   def self.find_all_complete
     timestamp = maximum(:updated_at)
-    Rails.cache.fetch ['games', timestamp.to_i].join('/') do
+    Rails.cache.fetch ["games", timestamp.to_i].join('/') do
       find(
         :all,
         :include => [:publisher, :setting, :perspective, :genres],
@@ -19,7 +19,7 @@ class Game < ActiveRecord::Base
   
   def self.find_game(id)
     timestamp = find(id).updated_at
-    Rails.cache.fetch ['game-#{id}', timestamp.to_i].join('/') do
+    Rails.cache.fetch ["game-#{id}", timestamp.to_i].join('/') do
       find(
         id,
         :include => [:publisher, :setting, :perspective, :genres],
@@ -30,7 +30,7 @@ class Game < ActiveRecord::Base
   
   def self.find_complete(id)
     timestamp = find(id).updated_at
-    Rails.cache.fetch ['gamecomplete-#{id}' , timestamp.to_i].join('/') do
+    Rails.cache.fetch ["gamecomplete-#{id}" , timestamp.to_i].join('/') do
       find(
         id,
         :include => [:publisher,

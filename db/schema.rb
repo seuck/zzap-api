@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130415140843) do
+ActiveRecord::Schema.define(:version => 20130418135659) do
 
   create_table "countries", :force => true do |t|
     t.string   "name",       :null => false
@@ -172,6 +172,27 @@ ActiveRecord::Schema.define(:version => 20130415140843) do
   end
 
   add_index "systems", ["manufacturer_id"], :name => "index_systems_on_manufacturer_id"
+
+  create_table "trick_types", :force => true do |t|
+    t.string   "name",       :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "tricks", :force => true do |t|
+    t.integer  "game_version_id"
+    t.integer  "trick_type_id"
+    t.integer  "volume_id"
+    t.integer  "page"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+    t.integer  "page_id"
+  end
+
+  add_index "tricks", ["game_version_id"], :name => "index_tricks_on_game_version_id"
+  add_index "tricks", ["page_id"], :name => "index_tricks_on_page_id"
+  add_index "tricks", ["trick_type_id"], :name => "index_tricks_on_trick_type_id"
+  add_index "tricks", ["volume_id"], :name => "index_tricks_on_volume_id"
 
   create_table "volume_types", :force => true do |t|
     t.string   "name",       :null => false
