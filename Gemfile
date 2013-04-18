@@ -6,11 +6,10 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mysql2'
-
-
 gem 'execjs'
-
 gem 'therubyracer'
+gem 'rabl'
+gem 'oj' #RABL: Also add either `oj` or `yajl-ruby` as the JSON parser
 
 group :assets do
   gem 'sass-rails'

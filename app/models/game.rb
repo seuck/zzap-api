@@ -12,35 +12,37 @@ class Game < ActiveRecord::Base
     Rails.cache.fetch ['games', timestamp.to_i].join('/') do
       find(
         :all,
-        :include => [:publisher, :setting, :perspective, :genres, { :game_versions => [:system, :media, :developer] }],
-        :order => "games.name")
+        :include => [:publisher, :setting, :perspective, :genres],
+        :order => "games.name, genres.name")
     end
   end
   
-  def self.find_complete(id)
-    timestamp = maximum(:updated_at)
-    Rails.cache.fetch ['games-#{id}' , timestamp.to_i].join('/') do
+  def self.find_game(id)
+    timestamp = find(id).updated_at
+    Rails.cache.fetch ['game-#{id}', timestamp.to_i].join('/') do
       find(
         id,
-        :include => [:publisher, :setting, :perspective, :genres, { :game_versions => [:system, :media, :developer] } ])
+        :include => [:publisher, :setting, :perspective, :genres],
+        :order => "genres.name")
     end
   end
+
   
-  def as_json(options={})
-    super(:only => [ :id, :name ],
-      :include => {
-          :publisher => { :only => [:id, :name] },
-          :setting => { :only => [:name] },
-          :perspective => { :only => [:name] },
-          :genres => { :only => [:id, :name] },
-          :game_versions => { :only => [:year],
-            :include => {
-              :system => { :only => [:id, :name] },
-              :media => { :only => :name },
-              :developer => { :only => [ :id, :name] }
-            }
-          }
-      }
-    )
+  def self.find_complete(id)
+    timestamp = find(id).updated_at
+    Rails.cache.fetch ['gamecomplete-#{id}' , timestamp.to_i].join('/') do
+      find(
+        id,
+        :include => [:publisher,
+                     :setting,
+                     :perspective,
+                     :genres,
+                     { :game_versions => [{:system => :manufacturer },
+                                          :media,
+                                          :developer]
+                     } ],
+        :order => "genres.name, game_versions.year")
+    end
   end
+
 end

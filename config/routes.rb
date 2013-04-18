@@ -5,7 +5,8 @@ Zzap::Application.routes.draw do
   root :to => redirect('http://www.zzap.it')
   
   namespace :api do
-    resources :magazines, :issues, :editors, :developers, :publishers, :manufacturers, :games
+    resources :magazines, :issues, :editors, :developers, :publishers, :manufacturers, :games, :gamecomplete
+    match '/games/:id/complete' => 'games#show', :complete => "true"
   end
   
   # Sample of regular route:

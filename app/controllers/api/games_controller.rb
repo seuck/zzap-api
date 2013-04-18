@@ -3,12 +3,15 @@ class Api::GamesController < ApplicationController
 
   def index
     @games = Game.find_all_complete
-    respond_with_json @games
   end
   
   def show
-    @game = Game.find_complete(params[:id])
-    respond_with_json @game
+    if params[:complete] == "true"
+      @game = Game.find_complete(params[:id])
+      render "showcomplete"
+    else
+      @game = Game.find_game(params[:id])
+    end
   end
   
 end
