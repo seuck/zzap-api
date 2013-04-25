@@ -3,7 +3,7 @@ class FixTrickPage < ActiveRecord::Migration
     add_column :tricks, :page_id, :integer
     add_index :tricks, :page_id
     
-    #tricks = Trick.find(:all)
+    tricks = Trick.find(:all)
     tricks.each do |trick|
       page = Page.where(volume_id: trick.volume_id, sequence: trick.page).first
       trick.page_id = page.id
