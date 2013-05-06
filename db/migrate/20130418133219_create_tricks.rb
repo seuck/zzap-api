@@ -1,10 +1,10 @@
 class CreateTricks < ActiveRecord::Migration
   def self.up
     create_table :tricks do |t|
-      t.references :game_version
-      t.references :trick_type
-      t.references :volume
-      t.references :page
+      t.references :game_version, :null => false
+      t.references :trick_type, :null => false
+      t.references :volume, :null => false
+      t.references :page, :null => false
 
       t.timestamps
     end

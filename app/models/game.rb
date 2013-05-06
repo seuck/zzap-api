@@ -4,6 +4,7 @@ class Game < ActiveRecord::Base
   belongs_to :perspective
   has_and_belongs_to_many :genres
   has_many :game_versions
+  has_many :adverts
   
   attr_accessible :id, :name, :publisher_id, :setting_id, :perspective_id
   

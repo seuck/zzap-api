@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  volume: 
+  game: 
+  page: 1
+
+two:
+  volume: 
+  game: 
+  page: 1

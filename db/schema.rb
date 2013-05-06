@@ -11,7 +11,19 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130418133743) do
+ActiveRecord::Schema.define(:version => 20130506144835) do
+
+  create_table "adverts", :force => true do |t|
+    t.integer  "volume_id"
+    t.integer  "game_id"
+    t.integer  "page_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "adverts", ["game_id"], :name => "index_adverts_on_game_id"
+  add_index "adverts", ["page_id"], :name => "index_adverts_on_page_id"
+  add_index "adverts", ["volume_id"], :name => "index_adverts_on_volume_id"
 
   create_table "countries", :force => true do |t|
     t.string   "name",       :null => false
@@ -36,7 +48,7 @@ ActiveRecord::Schema.define(:version => 20130418133743) do
 
   create_table "game_versions", :force => true do |t|
     t.integer  "year"
-    t.integer  "game_id"
+    t.integer  "game_id",      :null => false
     t.integer  "system_id"
     t.integer  "media_id"
     t.integer  "developer_id"
