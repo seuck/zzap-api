@@ -4,5 +4,7 @@ class GameVersion < ActiveRecord::Base
   belongs_to :media
   belongs_to :developer
   has_many :tricks
+  has_many :reviews
+
   attr_accessible :id, :year, :game_id, :system_id, :media_id, :developer_id
 end

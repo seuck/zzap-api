@@ -11,12 +11,12 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130506144835) do
+ActiveRecord::Schema.define(:version => 20130507134254) do
 
   create_table "adverts", :force => true do |t|
-    t.integer  "volume_id"
-    t.integer  "game_id"
-    t.integer  "page_id"
+    t.integer  "volume_id",  :null => false
+    t.integer  "game_id",    :null => false
+    t.integer  "page_id",    :null => false
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -150,6 +150,19 @@ ActiveRecord::Schema.define(:version => 20130506144835) do
   end
 
   add_index "publishers", ["country_id"], :name => "index_publishers_on_country_id"
+
+  create_table "reviews", :force => true do |t|
+    t.integer  "game_version_id", :null => false
+    t.integer  "volume_id",       :null => false
+    t.integer  "page_id",         :null => false
+    t.integer  "vote"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+  end
+
+  add_index "reviews", ["game_version_id"], :name => "index_reviews_on_game_version_id"
+  add_index "reviews", ["page_id"], :name => "index_reviews_on_page_id"
+  add_index "reviews", ["volume_id"], :name => "index_reviews_on_volume_id"
 
   create_table "scan_authors", :force => true do |t|
     t.string   "name"
