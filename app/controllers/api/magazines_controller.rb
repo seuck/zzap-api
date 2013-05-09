@@ -7,6 +7,8 @@ class Api::MagazinesController < ApplicationController
     respond_with_json @magazines
   end
   
+  # Allowed params:
+  # - complete: true for complete data, false for normal data
   def show
     @magazine = Magazine.find(params[:id])
     respond_with_json @magazine
