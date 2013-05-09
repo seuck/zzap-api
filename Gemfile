@@ -12,18 +12,6 @@ gem 'rabl'
 gem 'oj' #RABL: Also add either `oj` or `yajl-ruby` as the JSON parser
 gem 'rails-api'
 
-group :assets do
-  gem 'sass-rails'
-  gem 'coffee-rails'
-
-  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platforms => :ruby
-
-  gem 'uglifier'
-end
-
-gem 'jquery-rails'
-
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
