@@ -10,6 +10,7 @@ gem 'execjs'
 gem 'therubyracer'
 gem 'rabl'
 gem 'oj' #RABL: Also add either `oj` or `yajl-ruby` as the JSON parser
+gem 'rails-api'
 
 group :assets do
   gem 'sass-rails'

@@ -1,5 +1,8 @@
-class ApplicationController < ActionController::Base
-  protect_from_forgery
+#class ApplicationController < ActionController::Base
+class ApplicationController < ActionController::API
+  #protect_from_forgery
+  
+  include ActionController::MimeResponds
   
   def redirect_to_zzap
     redirect_to "http://www.zzap.it"
