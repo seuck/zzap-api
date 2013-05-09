@@ -12,25 +12,23 @@ class Issue < ActiveRecord::Base
         :conditions => { :id => params[:id] },
         :include => [
         	:editor, {
-          	:volumes => [{:pages => :scan}, :scan_authors]
-        	}],
-        :order => "volumes.volume_type_id,pages.sequence,scan_authors.name"
+          	:volumes => [ :volume_type ]
+        	},
+          :magazine
+        ],
+        :order => "volumes.volume_type_id"
       )      
     end
   end
   
   def as_json(options={})
-    super(:only => [ :id, :sequence, :year, :month, :magazine_id ],
+    super(:only => [ :id, :sequence, :year, :month ],
       :include => {
       	:editor => { :only => [ :id, :name ] },
-        :volumes => { :only => [ :id, :volume_type_id, :label, :pages_number ],
-          :include => {
-            :pages => { :only => [ :id, :label, :sequence ],
-              :include => { :scan => { :only => :path } }
-            },
-            :scan_authors => { :only => [:id, :name]}
-          }
-	      }
+        :magazine => { :only => [ :id, :name ] },
+        :volumes => {
+          :only => [ :id, :label, :pages_number, :volume_type_id => { :only => :name } ]
+        }
       }
     )
   end
