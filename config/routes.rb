@@ -7,6 +7,7 @@ Zzap::Application.routes.draw do
   namespace :api do
     resources :magazines, :issues, :volumes, :editors, :developers, :publishers, :manufacturers, :games, :gamecomplete
     match '/games/:id/complete' => 'games#show', :complete => "true"
+    match '/volumes/rabl/:id' => 'volumes#rabl' #benchmark route
   end
   
   # Sample of regular route:
