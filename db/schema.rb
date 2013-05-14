@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130507134254) do
+ActiveRecord::Schema.define(:version => 20130510151838) do
 
   create_table "adverts", :force => true do |t|
     t.integer  "volume_id",  :null => false
@@ -24,6 +24,17 @@ ActiveRecord::Schema.define(:version => 20130507134254) do
   add_index "adverts", ["game_id"], :name => "index_adverts_on_game_id"
   add_index "adverts", ["page_id"], :name => "index_adverts_on_page_id"
   add_index "adverts", ["volume_id"], :name => "index_adverts_on_volume_id"
+
+  create_table "callslogs", :id => false, :force => true do |t|
+    t.string   "method"
+    t.string   "url"
+    t.string   "ip"
+    t.integer  "response_code"
+    t.float    "page_duration"
+    t.float    "view_duration"
+    t.float    "db_duration"
+    t.datetime "date"
+  end
 
   create_table "countries", :force => true do |t|
     t.string   "name",       :null => false
